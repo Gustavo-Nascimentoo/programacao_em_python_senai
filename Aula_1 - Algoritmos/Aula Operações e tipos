@@ -1,0 +1,85 @@
+print (type("TEXTO"))
+print (type(10))
+print (type(10.5))
+print (type(True))
+
+nome = 'Caio'
+numero = 10
+numero_real = 1.5
+dado_boleando = True
+
+print (nome)
+
+Peso = 70
+Altura = 1.90
+IMC = (Peso/(Altura*Altura))
+print (IMC)
+
+#Média
+
+print ('Aluno')
+print ('Junior')
+n1 = 9
+n2 = 3
+n3 = 5
+media = (n1 + n2 + n3)/3
+print ('media aluno')
+print (media)
+
+Aprovado= media >=7
+Recuperacao = media >=5 and media <7
+reprovado = media <5
+
+print ('Situacao')
+print ('Aluno aprovado')
+print (Aprovado)
+print ('Aluno recuperacao')
+print (Recuperacao)
+print ('Aluno reprovado')
+print (reprovado)
+
+# sinais de comparação aritméticos
+
+print('+   -   *    /    %  //  **')
+
+n1  = 10
+n2  = 30
+print(n1  + n2 )
+print(n1  - n2 )
+print(n1  * n2 )
+print(n1  / n2 )
+
+print(n1  % n2 )
+print(n1  // n2 )
+print(n1  ** n2 )
+
+#Calculadora
+#input em sua essencia é um texto
+
+n1 = int(input('digite um número: '))
+n2 = int(input('digite um número: '))
+
+soma = n1 + n2
+
+print ('o total da soma é ',(soma))
+
+n1 = int(input('digite um número: '))
+n2 = int(input('digite um número: '))
+
+subtracao = n1 - n2
+
+print ('o resto da subtração é ',(subtracao))
+
+n1 = int(input('digite um número: '))
+n2 = int(input('digite um número: '))
+
+divisao = n1 / n2
+
+print ('o resultado da divisão é ',(divisao))
+
+n1 = int(input('digite um número: '))
+n2 = int(input('digite um número: '))
+
+multiplicacao = n1 * n2
+
+print ('o total da multiplicação é ',(multiplicacao))
