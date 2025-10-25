@@ -1,0 +1,43 @@
+#Atividade e-commerce
+
+Carrinho = []
+meu_total = []
+
+#Listas
+lista_produtos = [" ", "Placa de vídeo", "Mouse", "Teclado", "Processador"]
+valores_produtos = [0, 2000.99, 450.99, 799.99, 1899.99]
+print(f'''
+{lista_produtos[1]} R$ - {valores_produtos[1]}
+{lista_produtos[2]} R$ - {valores_produtos[2]}
+{lista_produtos[3]} R$ - {valores_produtos[3]}
+{lista_produtos[4]} R$ - {valores_produtos[4]}
+''')
+#Váriaveis que vão escolher o produto da lista
+produto1 = int(input("ID do produto: "))
+produto2 = int(input("ID do produto: "))
+produto3 = int(input("ID do produto: "))
+
+Carrinho.append(lista_produtos[produto1])
+print("Você inseriu no seu carrinho - ", Carrinho)
+meu_total.append(valores_produtos[produto1])
+print("R$", sum(meu_total))
+
+                
+Carrinho.append(lista_produtos[produto2])
+print("Você inseriu no seu carrinho - ", Carrinho)
+meu_total.append(valores_produtos[produto2])
+print("R$", sum(meu_total))
+
+Carrinho.append(lista_produtos[produto3])
+print("Você inseriu no seu carrinho - ", Carrinho)                
+meu_total.append(valores_produtos[produto3])
+print("R$", sum(meu_total))
+
+print("--------------------------------------")
+print("Seu pedido ficou R$", sum(meu_total))
+print(Carrinho)
+print("--------------------------------------")
+
+forma_pag = [" ","1 - PIX", "2 - CC", "3 - CD"]
+pag = int(input("Escolha a forma de pagamento a partir do ID"))
+print ("Sua forma de pagamente é", forma_pag[pag], "Obrigado, volte sempre!")
