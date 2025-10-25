@@ -1,0 +1,25 @@
+Dicionário
+
+E_commerce = {
+    'tenis nike': 699.99,
+    'camisa nike':129.99,
+    'shorts nike': 249.99,
+    'Iphone 17': 7999.99,
+    }
+
+carrinho= []
+valores= []
+
+produto1 = input('Digite o nome do produto: ')
+produto2 = input('Digite o nome do produto: ')
+
+carrinho.append([produto1])
+carrinho.append([produto2])
+print(carrinho)
+
+valores.append(E_commerce[produto1])
+valores.append(E_commerce[produto2])
+
+print ('R$', valores)
+somar = sum(valores)
+print('R$', somar)
